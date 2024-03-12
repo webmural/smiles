@@ -1,0 +1,158 @@
+html {
+  font-family: sans-serif;
+  font-size: max(20pt, 10vmin);
+  line-height: 1.618;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+  margin-bottom: 1ex;
+  min-height: 100vh;
+  overflow-wrap: anywhere;
+}
+
+.avalon {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  font-size: 1.618em;
+  font-weight: bold;
+  justify-content: center;
+  margin: 5vh;
+  min-height: 100vh;
+  line-height: 2;
+}
+
+samp {
+  font: unset;
+  font-size: 2em;
+}
+
+.sestra { font-size: 1.11111111em }
+.curate { transform: rotate(88deg) }
+.desire { transform: rotate(-18deg); padding-block: 2em }
+.onfire { flex-flow: column }
+.kix {  transform: rotate(-72deg) }
+
+a {
+  font-weight: bold;
+  padding: 10pt;
+  border-radius: 100%;
+}
+
+menu {
+  display: flow-root;
+  margin: auto auto 6em;
+  padding: 1rem;
+  list-style: none;
+}
+
+menu li {
+  display: contents;
+}
+
+menu a {
+  border: 1ex inset;
+  border-radius: 100%;
+  box-sizing: border-box;
+  float: left;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 1ch;
+  text-align: center;
+  width: calc(100% / 3);
+}
+
+s { text-decoration: wavy underline }
+address { font: unset }
+em { font: unset }
+i { font: unset }
+u { font: unset }
+
+:focus {
+  outline: .5ex inset;
+  text-decoration-style: dotted;
+}
+
+:hover {
+  text-decoration-style: double;
+}
+
+@media (color) {
+  ::selection {
+    background: #ee1;
+    color: darkviolet;
+  }
+
+  :root {
+    background-color: plum;
+    background-image: linear-gradient(.5turn, peachpuff, deeppink, blueviolet, hotpink, blueviolet, hotpink, deeppink);
+    color: indigo;
+  }
+
+  :any-link {
+    border-color: #bae;
+    color: indigo;
+    background-color: transparent;
+    text-shadow: 0 1ch 1ch #bae;
+  }
+
+  :focus {
+    outline-color: skyblue;
+    border-color: skyblue;
+    background-color: skyblue;
+  }
+
+  a:hover {
+    border-color: deepskyblue;
+    background-color: deepskyblue;
+  }
+
+  .pinata {
+    text-shadow:
+      -1vw -1vh 0 deeppink,
+      -2vw -2vh 0 salmon,
+      -3vw -3vh 0 hotpink,
+      -4vw -4vh 0 sandybrown,
+      -5vw -5vh 0 mediumorchid,
+      -6vw -6vh 0 mediumpurple,
+      -7vw -7vh 0 #bae;
+  }
+
+  .oliver {
+    text-shadow:
+      1vw -1vh 0 deeppink,
+      2vw -2vh 0 salmon,
+      3vw -3vh 0 hotpink,
+      4vw -4vh 0 sandybrown,
+      5vw -5vh 0 mediumorchid,
+      6vw -6vh 0 mediumpurple,
+      7vw -7vh 0 #bae;
+  }
+
+  .saliva {
+    text-shadow:
+      1vw 1vh 0 deeppink,
+      2vw 2vh 0 salmon,
+      3vw 3vh 0 hotpink,
+      4vw 4vh 0 sandybrown,
+      5vw 5vh 0 mediumorchid,
+      6vw 6vh 0 mediumpurple,
+      7vw 7vh 0 crimson;
+  }
+
+  .sliver {
+    text-shadow:
+      -1vw 1vh 0 deeppink,
+      -2vw 2vh 0 salmon,
+      -3vw 3vh 0 hotpink,
+      -4vw 4vh 0 sandybrown,
+      -5vw 5vh 0 mediumorchid,
+      -6vw 6vh 0 mediumpurple,
+      -7vw 7vh 0 crimson;
+  }
+}

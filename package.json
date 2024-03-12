@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "ff": "open -a firefox index.html || start firefox index.html",
+    "firefox": "npm run ff",
+    "start": "npm run firefox",
+    "test": "open index.html || start index.html || xdg-open index.html"
+
+  }
+}
